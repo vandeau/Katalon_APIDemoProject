@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="A" time="8" tests="2" failures="0" errors="0">
+   <testsuite name="A" tests="2" failures="0" errors="0" time="8" timestamp="2019-03-29 05:39:13" hostname="hlebshulhin - 10.0.1.3" id="Test Suites/A">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/hlebshulhin/Katalon Studio/API Demo Project 1/Reports/A/20190329_053907"/>
+         <property name="logFiles" value="/Users/hlebshulhin/Katalon Studio/API Demo Project 1/Reports/A/20190329_053907/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hlebshulhin - 10.0.1.3"/>
+         <property name="hostAddress" value="10.0.1.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/ListUsersTests" classname="Test Cases/ListUsersTests" status="PASSED">
+         <system-out><![CDATA[2019-03-29 05:39:13 - [TEST_CASE][PASSED] - Test Cases/ListUsersTests: Test Cases/ListUsersTests
+
+2019-03-29 05:39:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/ListUsers")): Send request successfully
+
+2019-03-29 05:39:17 - [MESSAGE][INFO] - HAR: /Users/hlebshulhin/Katalon Studio/API Demo Project 1/Reports/A/20190329_053907/requests/main/0.har
+
+2019-03-29 05:39:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-29 05:39:17 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestService/ListUsers")): Send request and verify the response successfully
+
+2019-03-29 05:39:17 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-29 05:39:18 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-29 05:39:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", 6): Verify element property value successfully
+
+2019-03-29 05:39:18 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-29 05:39:18 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-29 05:39:18 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-03-29 05:39:18 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", 6): Verify element property value successfully
+
+2019-03-29 05:39:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CalculatorTests/Addition" classname="Test Cases/CalculatorTests/Addition" status="PASSED">
+         <system-out><![CDATA[2019-03-29 05:39:18 - [TEST_CASE][PASSED] - Test Cases/CalculatorTests/Addition: Test Cases/CalculatorTests/Addition
+
+2019-03-29 05:39:18 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CalculatorSoapService/Addition")): Send request successfully
+
+2019-03-29 05:39:20 - [MESSAGE][INFO] - HAR: /Users/hlebshulhin/Katalon Studio/API Demo Project 1/Reports/A/20190329_053907/requests/main/1.har
+
+2019-03-29 05:39:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-03-29 05:39:20 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("CalculatorSoapService/Addition")): Send request and verify the response successfully
+
+2019-03-29 05:39:21 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-29 05:39:21 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-29 05:39:21 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-29 05:39:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-03-29 05:39:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-03-29 05:39:21 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-03-29 05:39:21 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-29 05:39:21 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-29 05:39:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 6): Verify element property value successfully
+
+2019-03-29 05:39:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-29 05:39:13 - [TEST_SUITE][PASSED] - A: Test Cases/CalculatorTests/Addition]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

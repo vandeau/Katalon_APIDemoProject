@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+A,,,2019-03-29 06:22:53,2019-03-29 06:22:58,4.739s,PASSED
+,,,,,,
+Test Cases/GetBankDetails,,,2019-03-29 06:22:53,2019-03-29 06:22:56,2.176s,PASSED
+"sendRequest(findTestObject(""SOAP/getBank""))",,,2019-03-29 06:22:54,2019-03-29 06:22:56,1.850s,PASSED
+,,,,,,
+Test Cases/ListUsersTests,,,2019-03-29 06:22:56,2019-03-29 06:22:58,2.274s,PASSED
+"sendRequest(findTestObject(""UserRestService/ListUsers""))",,,2019-03-29 06:22:56,2019-03-29 06:22:57,1.324s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,2019-03-29 06:22:57,2019-03-29 06:22:58,0.803s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-03-29 06:22:58,2019-03-29 06:22:58,0.017s,PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", 6)",,,2019-03-29 06:22:58,2019-03-29 06:22:58,0.013s,PASSED

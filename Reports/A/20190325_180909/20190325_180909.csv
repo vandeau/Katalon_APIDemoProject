@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+A,,,2019-03-25 18:09:16,2019-03-25 18:09:31,15.296s,PASSED
+,,,,,,
+Test Cases/TestHTTPMethods,,,2019-03-25 18:09:16,2019-03-25 18:09:23,6.425s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/DeleteUser""))",,,2019-03-25 18:09:16,2019-03-25 18:09:19,2.992s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/CreateUser""))",,,2019-03-25 18:09:19,2019-03-25 18:09:20,0.703s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,2019-03-25 18:09:20,2019-03-25 18:09:21,0.851s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/UpdateUser""))",,,2019-03-25 18:09:21,2019-03-25 18:09:23,1.533s,PASSED
+,,,,,,
+Test Cases/GetBankDetails,,,2019-03-25 18:09:23,2019-03-25 18:09:23,0.848s,PASSED
+"sendRequest(findTestObject(""SOAP/getBank""))",,,2019-03-25 18:09:23,2019-03-25 18:09:23,0.673s,PASSED
+,,,,,,
+Test Cases/TestHTTPMethods,,,2019-03-25 18:09:23,2019-03-25 18:09:26,2.934s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/DeleteUser""))",,,2019-03-25 18:09:23,2019-03-25 18:09:24,0.843s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/CreateUser""))",,,2019-03-25 18:09:24,2019-03-25 18:09:25,0.641s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,2019-03-25 18:09:25,2019-03-25 18:09:26,0.702s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/UpdateUser""))",,,2019-03-25 18:09:26,2019-03-25 18:09:26,0.730s,PASSED
+,,,,,,
+Test Cases/ListUsersTests,,,2019-03-25 18:09:26,2019-03-25 18:09:28,1.843s,PASSED
+"sendRequest(findTestObject(""UserRestService/ListUsers""))",,,2019-03-25 18:09:27,2019-03-25 18:09:27,0.878s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,,2019-03-25 18:09:27,2019-03-25 18:09:28,0.760s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-03-25 18:09:28,2019-03-25 18:09:28,0.011s,PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", 6)",,,2019-03-25 18:09:28,2019-03-25 18:09:28,0.011s,PASSED
+,,,,,,
+Test Cases/CalculatorTests/Addition,,,2019-03-25 18:09:28,2019-03-25 18:09:31,2.890s,PASSED
+"sendRequest(findTestObject(""CalculatorSoapService/Addition""))",,,2019-03-25 18:09:28,2019-03-25 18:09:29,1.049s,PASSED
+"response = sendRequestAndVerify(findTestObject(""CalculatorSoapService/Addition""))",,,2019-03-25 18:09:29,2019-03-25 18:09:31,1.573s,PASSED
+"verifyElementPropertyValue(response, ""AddResponse.AddResult"", 6)",,,2019-03-25 18:09:31,2019-03-25 18:09:31,0.179s,PASSED
